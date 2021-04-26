@@ -1,0 +1,32 @@
+<style>
+    h1 {
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        font-family: monospace;
+    }
+    .d1{background: lightgray;
+    text-align: center;}
+    
+   .container{
+       font-size: 25px;
+       width: 100%;
+        background: lightgray;
+       display: grid;
+        }
+    
+</style>
+
+<div>
+    <h1>Golf</h1>
+</div> 
+<hr>
+<div class="container">
+    <div class="d1"> History</div>
+</div> 
+<p>A common misconception is that the word GOLF is an acronym for Gentlemen Only Ladies Forbidden. This is a 20th century joke and definitely not true.
+
+It is now generally accepted that the 'golf' is derived from an old word meaning 'club', though this in turn may have older cognate roots dating back to ancient times. 
+
+The first documented mention of the word 'golf' is in Edinburgh on 6th March 1457, when King James II banned 'ye golf', in an attempt to encourage archery practice, which was being neglected.</p>
