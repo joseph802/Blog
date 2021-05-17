@@ -1,32 +1,79 @@
 <style>
-    h1 {
-        text-align: center;
-    }
-    p {
-        font-size: 16px;
-        font-family: monospace;
-    }
-    .d1{background: lightgray;
-    text-align: center;}
-    
-   .container{
-       font-size: 25px;
-       width: 100%;
-        background: lightgray;
-       display: grid;
+        
+        body{
+         background-color: black;
         }
+        h1{
+  text-align: center;
+        }
+        h2{
+         text-align: center;   
+        }
+        #box-container {
+    height: 1000px;
+    display: flex;
+      grid-column-gap: 10px;
+        }
+        #box-1 {
+    background-color: beige;
+    width: 65%;
+    height: 100%;
+        }
+  #box-2 {
+      background-color: beige;
+      width: 35%;
+      height: 100%; 
+        }
+    .h4{
+       background-color: white;
+        text-align: ;
+    }
+    #cube-container {
+     display: flex;
+       grid-column-gap: 5px;
+       }
     
-</style>
+    #cube-1 {
+     background-color: white;
+        }
+    #cube-2 {
+     background-color: white;   
+    }
+</style> 
 
-<div>
-    <h1>Golf</h1>
+<div id="box-container">
+ <div id="box-1"><h1> How to be the best golfer you can be.</h1>
+     <hr>
+  <div id="cube-container">
+      <div id="cube-1">
+          <a href="file:///home/chronos/u-86b755ee3145450c0e563521f8fbf47d4071a5ce/MyFiles/Contacts.html">contacts</a> </div> 
+      <div id="cube-2">
+          mentors 
+      </div>
+     </div>
+     <h2> 1. Get your eyes checked.</h2>
+     <p>You might think your eyes won’t go bad for decades to come, but according to the Census 
+         Bureau and the National Center for Health Statistics,
+         one out of every 10 people 18 or older in 
+         the United States reported some decline in 
+         vision in 2016—even people who wear glasses. 
+         You might joke that you play better when the 
+         ball and the fairway are a blur, but the reality 
+         is that routine eye checkups will help your game.
+         You need clear vision for aiming, improved coordination
+         between your hands and club, and perhaps most 
+         importantly—eye teaming.</p> 
+     <img src="<img src="https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2016/03/16/56e987df3167dcbe3e03d96b_Gary-Woodland-correct-backswing-staff.jpg4>
+     <h2>2. Get fit for your putter</h2>
+     <p>You take 30-plus whacks with the damn thing every round. It might as well be fit to you. And it might be the least fit club in your bag. A study of 100 golfers by clubfitting experts Club Champion for Golf Digest revealed that two-thirds of golfers do not fit into the standard length of 35 inches. And 28 percent of golfers either need more than 35 inches or less than 34 inches meaning there are some pretty bad fits out there. Which is not exactly what you want when you're trying to roll the rock into a hole only 4.25 inches in diameter </p>
+     
+     <h2>3. Hold your pose after every shot</h2>
+     <p> Whether it’s a putt, a chip, a bunker shot or a drive, your goal should be to complete the swing in a great finish position. Why? It means your swing was probably properly synced, had good rhythm, and the speed was in the right place—through impact. If you focus on getting into a nice finish position, you’ll be amazed how much better your ball-striking will become.—R.K.</p>
 </div> 
-<hr>
-<div class="container">
-    <div class="d1"> History</div>
-</div> 
-<p>A common misconception is that the word GOLF is an acronym for Gentlemen Only Ladies Forbidden. This is a 20th century joke and definitely not true.
+    <div id="box-2">
+    <h1>Form</h1><hr>
+    
+    
+    </div>  
+ 
 
-It is now generally accepted that the 'golf' is derived from an old word meaning 'club', though this in turn may have older cognate roots dating back to ancient times. 
-
-The first documented mention of the word 'golf' is in Edinburgh on 6th March 1457, when King James II banned 'ye golf', in an attempt to encourage archery practice, which was being neglected.</p>
