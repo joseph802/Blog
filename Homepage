@@ -5,12 +5,14 @@
         }
         h1{
   text-align: center;
+            font-family: monospace;
         }
         h2{
-         text-align: center;   
+         text-align: center;
+            font-family: monospace;
         }
         #box-container {
-    height: 1000px;
+    height: 1100px;
     display: flex;
       grid-column-gap: 10px;
         }
@@ -35,9 +37,14 @@
     
     #cube-1 {
      background-color: white;
+        align-items: center;
         }
     #cube-2 {
-     background-color: white;   
+     background-color: white;
+        align-items: center;
+    }
+    a{
+     text-align: center;   
     }
 </style> 
 
@@ -46,12 +53,12 @@
      <hr>
   <div id="cube-container">
       <div id="cube-1">
-          <a href="file:///home/chronos/u-86b755ee3145450c0e563521f8fbf47d4071a5ce/MyFiles/Contacts.html">contacts</a> </div> 
+          <a href="file:///home/chronos/u-86b755ee3145450c0e563521f8fbf47d4071a5ce/MyFiles/Contacts.html">Helpful Sources</a> </div> 
       <div id="cube-2">
           mentors 
       </div>
      </div>
-     <h2> 1. Get your eyes checked.</h2>
+     <h2> <u>1. Get your eyes checked</u></h2>
      <p>You might think your eyes won’t go bad for decades to come, but according to the Census 
          Bureau and the National Center for Health Statistics,
          one out of every 10 people 18 or older in 
@@ -64,16 +71,71 @@
          between your hands and club, and perhaps most 
          importantly—eye teaming.</p> 
      <img src="<img src="https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2016/03/16/56e987df3167dcbe3e03d96b_Gary-Woodland-correct-backswing-staff.jpg4>
-     <h2>2. Get fit for your putter</h2>
+     <h2><u>2. Get fit for your putter</u></h2>
      <p>You take 30-plus whacks with the damn thing every round. It might as well be fit to you. And it might be the least fit club in your bag. A study of 100 golfers by clubfitting experts Club Champion for Golf Digest revealed that two-thirds of golfers do not fit into the standard length of 35 inches. And 28 percent of golfers either need more than 35 inches or less than 34 inches meaning there are some pretty bad fits out there. Which is not exactly what you want when you're trying to roll the rock into a hole only 4.25 inches in diameter </p>
      
-     <h2>3. Hold your pose after every shot</h2>
+     <h2><u>3. Hold your pose after every shot</u></h2>
      <p> Whether it’s a putt, a chip, a bunker shot or a drive, your goal should be to complete the swing in a great finish position. Why? It means your swing was probably properly synced, had good rhythm, and the speed was in the right place—through impact. If you focus on getting into a nice finish position, you’ll be amazed how much better your ball-striking will become.—R.K.</p>
+     
+     <h2><u>4. Practice with your worst ball</u></h2>
+     <p> Want to develop the all-around game and mental toughness needed to play consistently good golf? Try the Worse Ball drill. Scott Gregory, a rookie on the European Tour, credits it with helping him become a complete player. “There's no better way to get good at playing golf ugly,” he says. The concept is simple: Starting on the tee, hit two balls from every position, playing only your worse ball, until you’ve holed out.The key is maintaining your pre-shot routine and concentrating on every shot. Let's say, for example, you're playing a par 4, and you hit two drives, one in the fairway and one in the rough. Play your next two shots from the rough. If one ball lands on the green and the other in a bunker, play your next two shots from the bunker.</p>
+     
+     <h2><u>5. Practice pitching sidearm</u></h2>
+     <p> Most amateurs struggle to swing the club in the correct sequence. This happens for a number of reasons, but all of them can be corrected if you pretend you’re a sidearm pitcher. Grab a tennis ball and throw it sidearm forcefully against a wall. Note how, without thinking, you automatically load into the leg farther from the wall, and your arm rears back for the throw. Then you feel a noticeable lower-body weight shift toward the wall while your arm still hasn’t quite completed the windup. Finally, when all your weight has shifted into your front leg, you rotate your chest toward the wall and then let your arm hurl the ball powerfully forward.</p>
+     
+     <h2><u>6. Stretch those hammies</u></h2>
+     <p> Two things are working against them in terms of good function—our mostly seated lifestyles and anterior-muscle (front side of the body) dominance. And when the hamstrings become chronically short and tight, it can wreak havoc on your golf swing and lead to injuries that will keep you off the course. A great way to start every day is by stretching your hamstrings, says Golf Digest fitness advisor Ralph Simpson.</p>
+     
+     
+
 </div> 
     <div id="box-2">
-    <h1>Form</h1><hr>
-    
-    
+        <h1>Form</h1>
     </div>  
+    
+    --------------------------------
  
+<style>
+    body{
+     background-color: black;   
+    }
+    #box-container{
+      height: 500px;
+    display: flex;
+    }
+    
+    #box-1{
+     background-color: beige; 
+        width: 100%;
+    }
+    h1{
+     font-family: monospace;
+        text-align: center;
+    }
+    h2{
+     font-family: monospace;
+        text-align: center;
+    }
+    p{
+     text-align: center;
+        }
+    a{
+     text-align: center;   
+    }
+    
+</style>
+
+<div id="box-container"> 
+<div id="box-1">
+    <h1>Sources</h1> 
+    <hr>
+    <h2><u>Rick Shields Golf</u></h2>
+    <p>
+PGA Golf Coach, Rick Shiels guides you step by step on how to hit your golf driver - better, longer, straighter and more consistent than ever before! Personaly when I started to play golf </p>
+    <a href="https://www.youtube.com/watch?v=BBbSwvV3bJI"><p>THE COMPLETE DRIVER GOLF SWING GUIDE - RICK SHIELS</p> </a>
+    <p>In this video Rick Shiels PGA golf professional will shoe you 5 really simple ways to stop slicing the golf ball!</p>
+    <a href="https://www.youtube.com/watch?v=xG66WXfnCTg"><p>5 SIMPLE WAYS TO FIX YOUR GOLF SLICE - GUARANTEED</p></a>
+    </div>
+</div>
+
 
