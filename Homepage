@@ -1,7 +1,8 @@
 <style>
         
-        body{
-         background-color: black;
+       body {
+           
+          background-color: lightblue; 
         }
         h1{
   text-align: center;
@@ -12,19 +13,20 @@
             font-family: monospace;
         }
         #box-container {
-    height: 1100px;
+    height: 3770px;
     display: flex;
       grid-column-gap: 10px;
+            
         }
         #box-1 {
-    background-color: beige;
+    background-color: lightyellow;
     width: 65%;
-    height: 100%;
+    height: 95%;
         }
   #box-2 {
-      background-color: beige;
+      background-color: lightyellow;
       width: 35%;
-      height: 100%; 
+      height: 10%; 
         }
     .h4{
        background-color: white;
@@ -36,27 +38,65 @@
        }
     
     #cube-1 {
-     background-color: white;
-        align-items: center;
+     background-color: lightyellow;
+        align-items: center; 
+        justify-items: center;
+        width: 115px;
+        height: 35px;
         }
     #cube-2 {
      background-color: white;
         align-items: center;
+        
     }
     a{
      text-align: center;   
     }
+    
+    h3{
+     text-align: center;   
+    }
+    
+    img{
+     size: .01px;
+         width: 400px;
+        display: flex;
+    }
+    
+    .center{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+    }
+    
+    form{
+     text-align: center;
+       margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        
+    }
+    .divScroll {
+        overflow: scroll;
+           max-height:17.35%;
+                max-width:100%;
+    }
+    
+    }
+    
+    h4{
+     text-align: center;   
+    }
+  
 </style> 
 
 <div id="box-container">
- <div id="box-1"><h1> How to be the best golfer you can be.</h1>
+ <div id="box-1" class="divScroll"><h1> How to be the best golfer you can be.</h1>
      <hr>
   <div id="cube-container">
-      <div id="cube-1">
-          <a href="file:///home/chronos/u-86b755ee3145450c0e563521f8fbf47d4071a5ce/MyFiles/Contacts.html">Helpful Sources</a> </div> 
-      <div id="cube-2">
-          mentors 
-      </div>
+      <div id="cube-1" class="Center">
+          <a href="file:///home/chronos/u-86b755ee3145450c0e563521f8fbf47d4071a5ce/MyFiles/Contacts.html"><h4>Helpful Sources</h4></a> </div> 
      </div>
      <h2> <u>1. Get your eyes checked</u></h2>
      <p>You might think your eyes won’t go bad for decades to come, but according to the Census 
@@ -70,34 +110,51 @@
          You need clear vision for aiming, improved coordination
          between your hands and club, and perhaps most 
          importantly—eye teaming.</p> 
-     <img src="<img src="https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2016/03/16/56e987df3167dcbe3e03d96b_Gary-Woodland-correct-backswing-staff.jpg4>
+     <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdvbGZ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" class="center">
+
      <h2><u>2. Get fit for your putter</u></h2>
      <p>You take 30-plus whacks with the damn thing every round. It might as well be fit to you. And it might be the least fit club in your bag. A study of 100 golfers by clubfitting experts Club Champion for Golf Digest revealed that two-thirds of golfers do not fit into the standard length of 35 inches. And 28 percent of golfers either need more than 35 inches or less than 34 inches meaning there are some pretty bad fits out there. Which is not exactly what you want when you're trying to roll the rock into a hole only 4.25 inches in diameter </p>
-     
+     <img src="https://london.ca/sites/default/files/styles/scale_and_crop_16_9_medium/public/2020-09/Female%20Golfer.JPG?h=832bd459&itok=scWpogVE" class="center">
      <h2><u>3. Hold your pose after every shot</u></h2>
      <p> Whether it’s a putt, a chip, a bunker shot or a drive, your goal should be to complete the swing in a great finish position. Why? It means your swing was probably properly synced, had good rhythm, and the speed was in the right place—through impact. If you focus on getting into a nice finish position, you’ll be amazed how much better your ball-striking will become.—R.K.</p>
-     
+     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Golfer_swing.jpg" class="center">
      <h2><u>4. Practice with your worst ball</u></h2>
      <p> Want to develop the all-around game and mental toughness needed to play consistently good golf? Try the Worse Ball drill. Scott Gregory, a rookie on the European Tour, credits it with helping him become a complete player. “There's no better way to get good at playing golf ugly,” he says. The concept is simple: Starting on the tee, hit two balls from every position, playing only your worse ball, until you’ve holed out.The key is maintaining your pre-shot routine and concentrating on every shot. Let's say, for example, you're playing a par 4, and you hit two drives, one in the fairway and one in the rough. Play your next two shots from the rough. If one ball lands on the green and the other in a bunker, play your next two shots from the bunker.</p>
-     
+     <img src="https://www.sunriseridge.ca/wp-content/uploads/2020/07/golf-3685616_1920.jpg" class="center">
      <h2><u>5. Practice pitching sidearm</u></h2>
      <p> Most amateurs struggle to swing the club in the correct sequence. This happens for a number of reasons, but all of them can be corrected if you pretend you’re a sidearm pitcher. Grab a tennis ball and throw it sidearm forcefully against a wall. Note how, without thinking, you automatically load into the leg farther from the wall, and your arm rears back for the throw. Then you feel a noticeable lower-body weight shift toward the wall while your arm still hasn’t quite completed the windup. Finally, when all your weight has shifted into your front leg, you rotate your chest toward the wall and then let your arm hurl the ball powerfully forward.</p>
-     
+     <img src="https://www.gannett-cdn.com/presto/2020/06/22/PIND/d4c5971c-c393-4cc7-8ba2-bb937f68745c-GrandParkBaseball062220_KW_006.JPG" class="center">
      <h2><u>6. Stretch those hammies</u></h2>
      <p> Two things are working against them in terms of good function—our mostly seated lifestyles and anterior-muscle (front side of the body) dominance. And when the hamstrings become chronically short and tight, it can wreak havoc on your golf swing and lead to injuries that will keep you off the course. A great way to start every day is by stretching your hamstrings, says Golf Digest fitness advisor Ralph Simpson.</p>
-     
-     
+  <img src="https://miro.medium.com/max/1024/1*eRZuJTsn9KpzbguW6NMZKg.jpeg" class="center">   
+
+      
 
 </div> 
-    <div id="box-2">
+    <div id="box-2" class="divScroll">
         <h1>Form</h1>
-    </div>  
-    
-    --------------------------------
+        <hr>
+        <form action="file:///home/chronos/u-86b755ee3145450c0e563521f8fbf47d4071a5ce/MyFiles/Reponse.html">
+            <h3>How long have you been playing golf?</h3>
+            <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Just Started</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Around 1 year</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">2+ years</label>
+  
+            <label for="fname"></label><br><h3>Question:</h3>
+            <input   type="text" id="fname" name="fname"><br>
+            <br>
+            <input  type="submit" value="Submit"> 
+            <h4> If you have anymore questions, please email us at <a href = "mailto:garonejoseph@hotmail.com?subject = Feedback&body = Message">garonejoseph@hotmail.com</a>!</h4>
+    </form>          
+</div>  
+ ----------------------------------
  
-<style>
+ <style>
     body{
-     background-color: black;   
+     background-color: lightblue;   
     }
     #box-container{
       height: 500px;
@@ -105,7 +162,7 @@
     }
     
     #box-1{
-     background-color: beige; 
+     background-color: lightyellow; 
         width: 100%;
     }
     h1{
@@ -135,13 +192,18 @@ PGA Golf Coach, Rick Shiels guides you step by step on how to hit your golf driv
     <a href="https://www.youtube.com/watch?v=BBbSwvV3bJI"><p>THE COMPLETE DRIVER GOLF SWING GUIDE - RICK SHIELS</p> </a>
     <p>In this video Rick Shiels PGA golf professional will shoe you 5 really simple ways to stop slicing the golf ball!</p>
     <a href="https://www.youtube.com/watch?v=xG66WXfnCTg"><p>5 SIMPLE WAYS TO FIX YOUR GOLF SLICE - GUARANTEED</p></a>
+    <p>In this video Rick Shiels PGA golf professional will shoe you 5 really simple ways to stop slicing the golf ball!
+
+Slicing the golf ball can cause you to miss fairways, loose golf balls, and shot bad golf scores!
+
+In this video you will learn how to hit the golf ball straighter, longer and lower your golf scores and handicap with some really simple tips!</p>
     </div>
 </div>
 
-----------------------------------
+---------------------------
 <style>
     body{
-     background-color: black;   
+     background-color: lightblue;   
     }
     #box-container{
       height: 500px;
@@ -149,7 +211,7 @@ PGA Golf Coach, Rick Shiels guides you step by step on how to hit your golf driv
     }
     
     #box-1{
-     background-color: beige; 
+     background-color: lightyellow; 
         width: 100%;
     }
     
@@ -176,8 +238,7 @@ PGA Golf Coach, Rick Shiels guides you step by step on how to hit your golf driv
 <div id="box-1">
     
     <br><br><br><br><br><br><br><br>
-    <h3>Thank you for giving us your question. You will receive a response within the next 24 hours. 
-    Thank you and have a great day!</h3>
+    <h3>Thank you for your question! You will receive a response within the next 24 hours. Have a great day!</h3>
     <br><br>
     <h4> If you would like to return back to the home page, please click below.</h4>
     <br><br>
