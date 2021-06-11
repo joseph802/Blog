@@ -138,4 +138,53 @@ PGA Golf Coach, Rick Shiels guides you step by step on how to hit your golf driv
     </div>
 </div>
 
+----------------------------------
+<style>
+    body{
+     background-color: black;   
+    }
+    #box-container{
+      height: 500px;
+    display: flex;
+    }
+    
+    #box-1{
+     background-color: beige; 
+        width: 100%;
+    }
+    
+    h3{
+     text-align: center;   
+    }
+    
+    h4{
+        text-align: center;
+    }
+    
+    .center{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+    }
+   h1{
+     text-align: center;  
+    }
+</style>
+
+<div id="box-container"> 
+<div id="box-1">
+    
+    <br><br><br><br><br><br><br><br>
+    <h3>Thank you for giving us your question. You will receive a response within the next 24 hours. 
+    Thank you and have a great day!</h3>
+    <br><br>
+    <h4> If you would like to return back to the home page, please click below.</h4>
+    <br><br>
+    <a href="file:///home/chronos/u-86b755ee3145450c0e563521f8fbf47d4071a5ce/MyFiles/Layout.html?"><img src="https://img.flaticon.com/icons/png/512/271/271218.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" class="center"></a>
+            
+    </div>
+</div>
+
+
 
